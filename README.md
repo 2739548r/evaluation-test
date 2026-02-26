@@ -26,6 +26,7 @@ the full-text content. Next, the included article moves on to data extraction, w
 - Create new review
 - Title: **"Mobile Apps and User Experience"**
 - Descrition: **"What factors affect user satisfaction with mobile apps?"**
+- Click the review row in the table
 
 **1.3 Import References (1 min)**
 
