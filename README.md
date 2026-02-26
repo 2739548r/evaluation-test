@@ -41,7 +41,7 @@
 **2.2 Resolve 2 Duplicate Pairs (2 min)**
 
 - Click "Continue Resolving" button
-- For each pair shown, decide the best version and click **Keep Left** or **Keep Right**
+- For each pair shown, decide the version that has more information and click **Keep Left** or **Keep Right**
 
 **Expected:** 2 duplicate pairs to resolve
 
@@ -71,26 +71,15 @@
 **Test keyword filter:**
 
 1. Create keyword for include "**User**"
-2. Filter references by ticking the checkbox
+2. Filter references by ticking the User checkbox
 3. Create and Apply Label "**User**" to all of them
 4. Mark all of them as included
 
----
-
-### Part B: Complete Screening (5 min)
-
-**Finish screening all papers:**
-
-1. Click the 3 dots in the filters sidebar and reset filters
-2. Include/Maybe/Exclude the remaining paper
-
----
-
-## Task 4: Full-Text Review (7 minutes)
+## Task 4: Full-Text Review (2 minutes)
 
 ### Part A: Upload PDFs (2 min)
 
-1. Click add articles and import included from screening
+1. Click add articles and import included articles from screening
 1. Pick Paper 1: Smith 2020 - User Frustration and Paper 2: Chen 2019 - Shopping Satisfaction
 1. Click "**Upload PDF**" button
 1. Upload PDFs from (`test_pdfs/` folder)
@@ -105,12 +94,9 @@
 
 Create questions:
 
-- Publication Year: number
-- Publication Type: select with options: Conference Paper or Journal Articles
-- Study Design: select with options Interview or Survey
-- Primary UX Aspect: text: Satisfaction
+- Publication Year with type number
+- Publication Type with type select and options: Conference Paper or Journal Articles
 - User Study Size: number
-- Main Finding Category: select with options: Pain Points or Success Factor
 - Design Recommendations: Yes/No
 
 #### Paper 1: Smith 2020 - User Frustration
@@ -118,10 +104,7 @@ Create questions:
 ```
 Publication Year: 2020
 Publication Type: Conference Paper
-Study Design: Interview
-Primary UX Aspect: Satisfaction
-User Study Size: 50
-Main Finding Category: Pain Points
+User Study Size: 800
 Design Recommendations: Yes
 ```
 
@@ -130,10 +113,7 @@ Design Recommendations: Yes
 ```
 Publication Year: 2019
 Publication Type: Journal Article
-Study Design: Survey
-Primary UX Aspect: Satisfaction
-User Study Size: 800
-Main Finding Category: Success Factors
+User Study Size: 50
 Design Recommendations: Yes
 ```
 
@@ -143,11 +123,13 @@ Design Recommendations: Yes
 
 34. Go to "**Data Extraction**" tab
 35. Select **Smith 2020** paper
-36. View PDF
-37. Fill in the form using cheat sheet above (2 min)
-38. Select **Chen 2019** paper
-39. Fill the rows using cheat sheet above (2 min)
-40. Mark as completed
+36. Click View PDF
+37. Open the extraction sidebar on the right
+38. Fill in the form using cheat sheet above (2 min)
+39. Mark as completed and close the PDF
+40. Select **Chen 2019** paper
+41. Fill the rows using cheat sheet above (2 min)
+42. Mark as completed
 
 ---
 
@@ -199,13 +181,6 @@ This PDF has 5 text sections marked with `[CODE 1]` through `[CODE 5]`.
        └─ Low Retention
 ```
 
-**What we're testing:**
-
-- PDF highlighting tool
-- Code creation
-- Drag-and-drop functionality
-- Theme hierarchy visualization
-
 ---
 
 ## Task 7: Generate Charts (3 minutes)
@@ -250,13 +225,6 @@ Go to "**Charts**" tab and generate:
 64. Columns: **Main Finding Category**
 65. Generate chart
 
-**What we're testing:**
-
-- Chart generation works
-- Charts display correctly
-- Data is accurate
-- Charts are interpretable
-
 ---
 
 ## Test Complete! (30 minutes elapsed)
@@ -265,4 +233,4 @@ Go to "**Charts**" tab and generate:
 
 ## Post-Test Survey (10 minutes)
 
----
+## https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=KVxybjp2UE-B8i4lTwEzyMrJBIjeQMdMnesMZDt4KANUNjVCSkc5OUFKUEZGTldYNlFCRFgyMkNOOC4u
