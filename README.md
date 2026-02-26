@@ -6,6 +6,11 @@
 **Total Time:** 40 minutes + 10 minutes survey  
 **Participants:** 5 students (no prior systematic review experience needed)
 
+## Background
+
+Researchers have a research question and must find relevant articles. They export references from multiple online databases in Bib format and remove duplicates. They then review the articles in two stages: in the first stage, they examine the title and abstract, and for the included article, they move on to the next stage, which examines
+the full-text content. Next, the included article moves on to data extraction, which is similar to a spreadsheet in which researchers create questions in form of columns and answer them. They can also perform qualitative analysis, similar to HCI, highlighting relevant words in codes and creating themes. Finally, charts help visualise the extracted data and identify connections.
+
 ## Task 1: Setup & Import (3 minutes)
 
 ### Instructions for Participant:
@@ -77,14 +82,13 @@
 
 ## Task 4: Full-Text Review (2 minutes)
 
-### Part A: Upload PDFs (2 min)
-
 1. Click add articles and import included articles from screening
-1. Pick Paper 1: Smith 2020 - User Frustration and Paper 2: Chen 2019 - Shopping Satisfaction
+1. Search in the search bar "Understanding What Makes Mobile Apps Frustrating: A User Study"
 1. Click "**Upload PDF**" button
 1. Upload PDFs from (`test_pdfs/` folder)
 1. Verify file status changes
-1. Mark them as included
+1. Mark it as included
+1. Do all the previouse steps for "Factors Influencing User Satisfaction with Mobile Shopping Applications"
 
 ## Task 5: Data Extraction (5 minutes)
 
@@ -187,7 +191,7 @@ This PDF has 5 text sections marked with `[CODE 1]` through `[CODE 5]`.
 
 ### Instructions:
 
-Go to "**Charts**" tab and generate:
+Go to "**Charts**" tab:
 
 ---
 
@@ -195,7 +199,7 @@ Go to "**Charts**" tab and generate:
 
 50. Select "**Bar Chart**"
 51. Choose field: **"Publication Type"**
-52. Generate chart
+52. Wait for chart to generate
 53. **Observe:** Conference vs Journal distribution
 
 ---
@@ -203,7 +207,7 @@ Go to "**Charts**" tab and generate:
 ### Chart 2: Timeline (45 sec)
 
 54. Select "**Publication Timeline**"
-55. Generate chart
+55. Wait for chart to generate
 56. **Observe:** Papers by year (2019, 2020)
 
 ---
@@ -213,7 +217,7 @@ Go to "**Charts**" tab and generate:
 57. Select "**Scatter Plot**"
 58. X-axis: **Publication Year**
 59. Y-axis: **User Study Size**
-60. Generate chart
+60. Wait for chart to generate
 61. **Observe:** Two data points (50 and 800 participants)
 
 ---
@@ -223,7 +227,15 @@ Go to "**Charts**" tab and generate:
 62. Select "**Evidence Gap Map**"
 63. Rows: **Primary UX Aspect**
 64. Columns: **Main Finding Category**
-65. Generate chart
+65. Wait for chart to generate
+
+---
+
+### Chart 5: Prisma (Optional - if time)
+
+62. Select "**PRISMA**" in the top tab
+63. Wait for chart to generate
+64. Can you understand the data? If you scroll down at the bottom and hover on the labels an explanation will appear
 
 ---
 
